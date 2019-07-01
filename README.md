@@ -19,9 +19,13 @@ You need to execute commands below to get required packages (pip or pip3, the on
 At the end of the code, you will a code snippet like shown below:
 
 `# Only adjusting these parameters enough`
+
 `  content_path = '/path/to/your/photo.jpg'`
+
 `  style_path = '/path/to/your/style_photo.jpg'`
+
 `  content_weight = 1e3 # default 1e3`
+
 `  style_weight = 1e-2  # default 1e-2`
 `  iteration = 1000     # must be divisible by 100`
   
